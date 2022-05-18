@@ -1,8 +1,11 @@
 if there is already a gitlock index created, kill it manually
 rm -force .git/index.lock
 
+Adding NEW FILES into git
+git add "file dir"
+
 Commit Changes LOCALLY
-git commit -m routes.mjs "comment"
+git commit -m "comment"
 
 Push to main branch
 git push
